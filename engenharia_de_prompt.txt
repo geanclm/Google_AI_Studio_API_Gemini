@@ -1,0 +1,27 @@
+Técnica ZERO-SHOT PROMPTING:
+Esta técnica envolve o uso de prompts projetados para que o modelo gere uma resposta sem receber exemplos específicos de treinamento. O modelo deve ser capaz de generalizar a partir do prompt para gerar uma resposta relevante.
+Exemplo: Prompt: "Explique brevemente o conceito de inteligência artificial." Modelo: "A inteligência artificial é um campo da ciência da computação que se concentra no desenvolvimento de sistemas que podem executar tarefas que normalmente requerem inteligência humana. Isso inclui reconhecimento de padrões, aprendizado de máquina, tomada de decisões e muito mais."
+
+- - -
+
+Técnica CHAIN-OF-THOUGHT PROMPTING:
+Nesta técnica, vários prompts são encadeados em uma sequência lógica para orientar o modelo a seguir uma linha de pensamento específica. Cada prompt sucessivo constrói sobre o anterior para aprofundar o entendimento ou a resposta do modelo.
+Exemplo: Prompt 1: "O que é inteligência artificial?" Prompt 2: "Quais são as principais áreas de aplicação da inteligência artificial?" Prompt 3: "Como a inteligência artificial está sendo usada na medicina atualmente?"
+
+- - -
+
+Técnica FEW-SHOT PROMPTING:
+Esta técnica envolve fornecer ao modelo alguns exemplos de treinamento (few-shot) relacionados à tarefa que se deseja realizar. Os exemplos são usados para adaptar o modelo à tarefa específica, permitindo que ele generalize e gere respostas relevantes.
+Exemplo: Prompt: "Dê alguns exemplos de aplicativos de inteligência artificial." Exemplos de treinamento: 1. "Assistentes virtuais como Siri e Alexa." 2. "Reconhecimento facial em redes sociais." 3. "Carros autônomos." Modelo: "Alguns exemplos de aplicativos de inteligência artificial incluem assistentes virtuais como Siri e Alexa, reconhecimento facial em redes sociais e carros autônomos."
+
+- - -
+
+Técnica One-Shot Prompting:
+Nesta técnica, apenas um exemplo de treinamento é fornecido para a tarefa desejada. O modelo é desafiado a aprender a partir deste único exemplo e gerar respostas relevantes com base nele.
+Exemplo: Prompt: "Descreva o funcionamento de uma rede neural convolucional." Exemplo de treinamento: "Uma rede neural convolucional (CNN) é um tipo de rede neural artificial que é especialmente adequada para processamento de imagens." Modelo: "Uma rede neural convolucional (CNN) é um tipo de rede neural artificial que é especialmente adequada para processamento de imagens. Ela opera usando camadas de convolução que podem detectar características visuais como bordas, texturas e padrões em uma imagem."
+
+- - -
+
+Técnica Many-Shot Prompting:
+Ao contrário da técnica One-Shot, na Many-Shot Prompting, vários exemplos de treinamento são fornecidos para orientar o modelo na tarefa desejada. Isso permite que o modelo aprenda com uma variedade de exemplos e generalize para gerar respostas mais robustas.
+Exemplo: Prompt: "Explique o conceito de aprendizado supervisionado." Exemplos de treinamento: 1. "No aprendizado supervisionado, o modelo é treinado em um conjunto de dados rotulado." 2. "Os rótulos fornecem exemplos das respostas corretas para cada entrada de dados." 3. "O objetivo é que o modelo aprenda a mapear entradas para saídas com base nos exemplos fornecidos." Modelo: "No aprendizado supervisionado, o modelo é treinado em um conjunto de dados rotulado, onde os rótulos fornecem exemplos das respostas corretas para cada entrada de dados. O objetivo é que o modelo aprenda a mapear entradas para saídas com base nos exemplos fornecidos, permitindo que generalize para fazer previsões precisas em novos dados."

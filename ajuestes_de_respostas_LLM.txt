@@ -1,0 +1,50 @@
+Valores de Top-K e Top-P para diferentes perfis de resposta:
+
+1. Respostas mais criativas, porém cautelosas com relação ao conteúdo:
+Top-K: 20-30
+Top-P: 0,7-0,8
+
+2. Respostas razoáveis com certo conhecimento, porém ainda com criatividade:
+Top-K: 10-15
+Top-P: 0,6-0,7
+
+3. Respostas com assertividade e cuidado na precisão da informação:
+Top-K: 1-5
+Top-P: 0,9-1,0
+
+Observações:
+Os valores de Top-K mais altos resultam em respostas mais diversas, enquanto os valores mais baixos produzem respostas mais focadas.
+Os valores de Top-P mais altos permitem que o modelo retorne respostas com probabilidades mais baixas, resultando em respostas mais criativas,
+enquanto os valores mais baixos restringem o modelo a retornar respostas com probabilidades mais altas, produzindo respostas mais seguras e precisas.
+Esses valores são apenas sugestões e podem ser ajustados com base na tarefa específica e nos dados de treinamento usados pelo modelo.
+
+Fonte: Google AI Studio
+
+
+- - -
+
+Parâmetros ideais para cada perfil de resposta no Google AI Studio:
+1. Respostas mais criativas, porém cautelosas com relação ao conteúdo:
+Temperature: 0.7 - 0.9 (moderadamente alta para criatividade, mas não muito alta para evitar desvios)
+Top-K: 20-30 (considera um número razoável de candidatos)
+Top-P: 0.7-0.8 (permite explorar opções menos prováveis, mas mantém certo controle)
+Max Length: Ajuste conforme necessário para o tipo de resposta desejada, mas evite respostas muito longas que possam gerar inconsistências.
+Stop Sequences: Use stop sequences para interromper a geração em pontos específicos, como no final de uma frase ou parágrafo, para evitar tangentes desnecessárias.
+
+2. Respostas razoáveis com certo conhecimento, porém ainda com criatividade:
+Temperature: 0.5 - 0.7 (equilíbrio entre criatividade e precisão)
+Top-K: 10-15 (foco em candidatos mais relevantes)
+Top-P: 0.6-0.7 (permite alguma exploração, mas prioriza opções mais prováveis)
+Max Length: Ajuste conforme necessário, buscando um tamanho que permita respostas completas, mas evite respostas longas que possam comprometer a coerência.
+Stop Sequences: Use stop sequences para garantir respostas concisas e evitar divagações.
+
+3. Respostas com assertividade e cuidado na precisão da informação:
+Temperature: 0.2 - 0.4 (prioriza precisão e coerência)
+Top-K: 1-5 (concentra-se nos candidatos mais prováveis)
+Top-P: 0.9-1.0 (seleciona apenas as opções mais precisas)
+Max Length: Defina um limite que garanta respostas completas, mas evite respostas excessivamente longas que possam conter informações irrelevantes.
+Stop Sequences: Use stop sequences para garantir respostas concisas e focadas na informação essencial.
+Observações:
+Esses valores são apenas sugestões e podem variar dependendo do modelo específico, da tarefa e dos dados de treinamento.
+É importante experimentar diferentes combinações de parâmetros para encontrar o ajuste ideal para cada caso.
+As Stop Sequences são importantes para controlar o tamanho e a direção da resposta, evitando que o modelo se perca em divagações ou gere informações irrelevantes. Lembre-se: a engenharia de prompts é uma arte que se aperfeiçoa com a prática.
