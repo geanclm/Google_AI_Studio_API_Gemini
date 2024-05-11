@@ -1,5 +1,3 @@
-!wise.png
-<br>
 <h1>Projeto com o uso da API Gemini da Google</h1>
 
 O objetivo nesse pequeno projeto é testar, através de ajuste dos parâmetros, o recurso da API Gemini
