@@ -21,11 +21,13 @@ A persona criada se chama "Wise" e pode assumir quatro perfis:
 	- (maior probabilidade de contexto e auxílio na construção de conhecimento)
 
 <br>
-Código:<br>
+Código:
 
-1 - As conversas são salvas no Google Drive e é possível listá-las;<br>
-2 - Foram inseridos exemplos de promtp "ZERO-SHOT PROMPTING" e "CHAIN-OF-THOUGHT PROMPTING" para melhor instruir o modelo LLM nas respostas;<br>
-3 - Gráfico das expressões mais frequentes nas conversas.<br>
+- As conversas são salvas no Google Drive e é possível listá-las
+
+- Foram inseridos exemplos de promtp "ZERO-SHOT PROMPTING" e "CHAIN-OF-THOUGHT PROMPTING" para melhor instruir o modelo LLM nas respostas
+
+- Gráfico das expressões mais frequentes nas conversas.
 
 
 <br>
