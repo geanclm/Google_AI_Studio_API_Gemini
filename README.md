@@ -38,12 +38,12 @@ Em estudo:
 
 
 <br>
-Insights:
-0 - Alicerce primordial de aprendizado: engenharia de prompt;
-1 - A personalização de um agente permite atender uma necessidade específica do usuário;
-2 - O uso de embeddings parece ser uma ótima solução para compor contextualização específica
-acerca de um cenário definido. Por exemplo: é possível criar uma banco de dados reduzido com os tokens
-da mesma informação e agrupado por assunto. O recurso de embeddings permite economizar
-recurso de espaço e tempo em consulta;
-3 - Com o domínio dos dados diários do usuário será possível recomendar as próximas ações,
+Insights:<br>
+0 - Alicerce primordial de aprendizado: engenharia de prompt;<br>
+1 - A personalização de um agente permite atender uma necessidade específica do usuário;<br>
+2 - O uso de embeddings parece ser uma ótima solução para compor contextualização específica<br>
+acerca de um cenário definido. Por exemplo: é possível criar uma banco de dados reduzido<br>
+com os tokens da mesma informação e agrupado por assunto. O recurso de embeddings<br>
+permite economizar recurso de espaço e tempo em consulta;<br>
+3 - Com o domínio dos dados diários do usuário será possível recomendar as próximas ações,<br>
 seja pessoal, profissional, social e outras inerentes e de interesse;
